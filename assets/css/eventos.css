@@ -99,8 +99,8 @@ iframe{
     flex-direction: column;
     gap: 2%;
     align-items: center;
+    justify-content: center;
     width: 50%;
-    padding-top: 5%;
     height: 100%;
 }
 
