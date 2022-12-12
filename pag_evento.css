@@ -1,0 +1,162 @@
+*{margin: 0; padding: 0; text-decoration: none; color: inherit; list-style: none; border: none; outline: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* font-family: 'Fredoka One', cursive; */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #080728;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+    height: 10vh;
+    border-bottom: gray solid 1px ;
+}
+
+header a{
+    height: 100%;
+    width: 30%;
+}
+
+main{
+    display: flex;
+    gap: 8%;
+    height: 90vh;
+}
+
+h1{
+    font-size: 6vh;
+    color: #2D16F8;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav{
+    border-right: lightgray solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    width: 20%;
+    height: 90%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+nav *{
+    width: 70%;
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vmax;
+    border-bottom: lightgray solid 2px;
+    padding-left: 5px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+#pesq{
+    display: flex;
+    height: 6vh;
+    width: 30vw;
+}
+
+#pesq a{
+    display: flex;
+    justify-content: center;
+    background: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: gray solid 1px;
+}
+
+#pesq input{
+    background: none;
+    padding-left: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: gray solid 1px;
+    color: lightgray;
+}
+
+#pesq input::placeholder{
+    color: gray;
+    font-size: 2.5vh;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+#propaganda{
+    border-left: lightgray solid 1px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 10%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+}
+
+#titulo{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#img_estab{
+    height: 10vh;
+}
+
+#user {
+    display: flex;
+    margin: 1%;
+    width: 70%;
+    height: 15%;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+#user p{
+    width: 20%;
+    height: 50%;
+    font-size: 1.5vh;
+    background: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#user a{
+    height: 80%;
+}
+
+#publi{
+    font-size: 1.5vh;
+    width: 70%;
+    height: 50%;
+    background: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#publi img{
+    height: 40vh;
+}
+

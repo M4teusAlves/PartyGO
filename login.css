@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0; text-decoration: none; color: inherit; list-style: none; border: none; outline: 0;}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #080728;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 350px;
+}
+
+h1{
+    color: #6EE361;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    box-shadow: 0 0 5px #6EE361, 0 0 30px #6EE361, 0 0 50px #6EE361;
+    height: 50%;
+    animation: login 3s infinite;
+}
+
+fieldset{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div{
+    display: flex;
+    gap: 10px;
+}
+
+div img{
+    border-radius: 50%;
+}
+
+input{
+    color: #0aa8e6;
+    background: none;
+    box-shadow: 0 0 5px #0aa8e6, 0 0 30px #0aa8e6, 0 0 50px #0aa8e6;
+    padding-left: 10px;
+    height: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: #6EE361;
+    height: 20%;
+    background: none;
+    border: 1px solid #6EE361;
+    transition: 300ms;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a:hover{
+    box-shadow: 0 0 5px #6EE361, 0 0 30px #6EE361, 0 0 50px #6EE361;
+
+}
+
+input::placeholder{
+    color: #0aa8e6;
+}
+
+@keyframes login{
+    0%{
+        box-shadow: 0 0 0px #6EE361, 0 0 0px #6EE361, 0 0 50px #6EE361;
+    }
+    25%{
+        box-shadow: 0 0 0px #6EE361, 0 0 30px #6EE361, 0 0 50px #6EE361;
+    }
+    50%{
+        box-shadow: 0 0 5px #6EE361, 0 0 30px #6EE361, 0 0 50px #6EE361;
+    }
+    75%{
+        box-shadow: 0 0 0px #6EE361, 0 0 30px #6EE361, 0 0 50px #6EE361;
+    }
+    100%{
+        box-shadow: 0 0 0px #6EE361, 0 0 0px #6EE361, 0 0 50px #6EE361;
+    }
+}
