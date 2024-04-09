@@ -1,0 +1,13 @@
+.campos {
+	display: flex;
+	padding: 10px;
+	border: white solid 1px;
+    border-radius: 5px;
+    align-items: center;
+    width: 70%;
+}
+
+.campos img {
+	width: 80px;
+	height: 80px;
+}
